@@ -1,5 +1,13 @@
 #!/bin/bash
-yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make -y
+yum install zlib-devel -y
+yum install bzip2-devel -y 
+yum install openssl-devel -y 
+yum install ncurses-devel -y 
+yum install sqlite-devel -y 
+yum install readline-devel -y 
+yum install tk-devel -y 
+yum install gcc -y
+yum install make -y
 yum install libffi-devel -y
 cd ~
 wget http://cdn.npmmirror.com/binaries/python/3.8.5/Python-3.8.5.tgz
